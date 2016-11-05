@@ -1,9 +1,60 @@
-.inlineblock {
-  display: inline-block;
-  zoom: 1;
-  display*: inline;
+.emoji {
+  font-size: 10vw;
+  text-align: center;
+  width: 100%;
 }
 
-.emoji {
-  font-size: 128;
+@media (min-width: 1280px) {
+ .emoji {
+   font-size: 128;
+ }
+}
+
+.banner {
+  font-family: 'Shrikhand', cursive;
+  color: #2e120f;
+  font-size: 5vw;
+  margin-top: 2vw;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.regenerate {
+  font-family: 'Shrikhand', cursive;
+  text-align: center;
+}
+
+::selection {
+  background: #CC6A2B;
+}
+
+button {
+margin-top: 3vw;
+border:1px solid #8A66F4;-webkit-box-shadow: #CCCCCC 0px 1px 0px inset;-moz-box-shadow: #CCCCCC 0px 1px 0px inset; box-shadow: #CCCCCC 0px 1px 0px inset; -webkit-border-radius: 5px; -moz-border-radius: 5px;border-radius: 5px;font-size:2.5vw;font-family:georgia, serif; padding: 10px 10px 10px 10px; text-decoration:none; display:inline-block;text-shadow: -1px -1px 0 rgba(0,0,0,0.3);font-weight:bold; color: #F4E3C7;
+ background-color: #CC6A2B; background-image: -webkit-gradient(linear, left top, left bottom, from(#CC6A2B), to(#C55919));
+ background-image: -webkit-linear-gradient(top, #CC6A2B, #C55919);
+ background-image: -moz-linear-gradient(top, #CC6A2B, #C55919);
+ background-image: -ms-linear-gradient(top, #CC6A2B, #C55919);
+ background-image: -o-linear-gradient(top, #CC6A2B, #C55919);
+ background-image: linear-gradient(to bottom, #CC6A2B, #C55919);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#CC6A2B, endColorstr=#C55919);
+}
+
+button:hover {
+ border:1px solid #9174ED;
+ background-color: #a25422; background-image: -webkit-gradient(linear, left top, left bottom, from(#a25422), to(#984513));
+ background-image: -webkit-linear-gradient(top, #a25422, #984513);
+ background-image: -moz-linear-gradient(top, #a25422, #984513);
+ background-image: -ms-linear-gradient(top, #a25422, #984513);
+ background-image: -o-linear-gradient(top, #a25422, #984513);
+ background-image: linear-gradient(to bottom, #a25422, #984513);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#a25422, endColorstr=#984513);
+}
+
+button:focus {
+  outline: 0;
+}
+
+body {
+  background-color: #e9e5c8;
 }

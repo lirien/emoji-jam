@@ -1,4 +1,4 @@
-const EmojiGenerator = require('./emoji-generator');
+const $ = require('jquery');
+const ThemeSuggester = require('./theme-suggester');
 
-let generator = new EmojiGenerator();
-console.log(generator.sentence());
+window.suggester = new ThemeSuggester();

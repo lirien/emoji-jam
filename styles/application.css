@@ -1,0 +1,9 @@
+.inlineblock {
+  display: inline-block;
+  zoom: 1;
+  display*: inline;
+}
+
+.emoji {
+  font-size: 128;
+}

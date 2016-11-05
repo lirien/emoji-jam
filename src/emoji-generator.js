@@ -22,7 +22,7 @@ class EmojiGenerator {
   }
 
   sentence({ length } = { length: 3 }) {
-    return new Array(length).fill().map(() => this.emoji()).join('');
+    return new Array(length).fill().map(() => this.emoji()).join(' ');
   }
 }
 

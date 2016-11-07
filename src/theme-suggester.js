@@ -4,12 +4,13 @@ const EmojiGenerator = require('./emoji-generator');
 class ThemeSuggester {
   constructor() {
     this.generator = new EmojiGenerator();
-    $(() => {
-      this.button = $('.regenerate');
-      this.output = $('.emoji');
-      this.setupEventListeners();
-      this.render();
-    });
+  }
+
+  attachToDom() {
+    this.button = $('.regenerate');
+    this.output = $('.emoji');
+    this.setupEventListeners();
+    this.render();
   }
 
   setupEventListeners() {

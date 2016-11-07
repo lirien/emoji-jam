@@ -16,9 +16,8 @@ class EmojiGenerator {
   }
 
   emoji() {
-    return emoji.lib[
-      this.eligibleKeys[Math.floor(Math.random() * this.eligibleKeys.length)]
-    ].char;
+    let randomIndex = Math.floor(Math.random() * this.eligibleKeys.length);
+    return emoji.lib[this.eligibleKeys[randomIndex]].char;
   }
 
   sentence({ length } = { length: 3 }) {

@@ -1,20 +1,26 @@
 .emoji {
-  font-size: 10vw;
+  font-size: 20vw;
   text-align: center;
   width: 100%;
-}
-
-@media (min-width: 1280px) {
- .emoji {
-   font-size: 128;
- }
 }
 
 .banner {
   font-family: 'Shrikhand', cursive;
   color: #2e120f;
-  font-size: 5vw;
+  font-size: 10vw;
   margin-top: 2vw;
+  width: 100%;
+  text-align: left;
+}
+
+@media (min-width: 500px) {
+ .emoji {
+   font-size: 128;
+ }
+ .banner {
+   font-size: 5vw;
+   text-align: center;
+ }
 }
 
 .wrapper {
@@ -24,6 +30,9 @@
 .regenerate {
   font-family: 'Shrikhand', cursive;
   text-align: center;
+  font-size: 3.5vw;
+  width: 50%;
+  max-width: 350px;
 }
 
 ::selection {

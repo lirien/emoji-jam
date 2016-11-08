@@ -38,6 +38,12 @@
   max-width: 350px;
 }
 
+@media (min-width:1280px) {
+  .regenerate {
+    font-size: 56px;
+  }
+}
+
 ::selection {
   background: #CC6A2B;
 }

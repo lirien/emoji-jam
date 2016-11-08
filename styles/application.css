@@ -8,7 +8,7 @@
   font-family: 'Shrikhand', cursive;
   color: #2e120f;
   font-size: 9vw;
-  margin-top: 2vw;
+  margin-top: 45%;
   width: 100%;
   text-align: center;
 }
@@ -17,13 +17,15 @@
   display: inline-block;
 }
 
-@media (min-width: 500px) {
- .emoji {
-   font-size: 128;
- }
- .banner {
-   font-size: 5vw;
- }
+@media (min-device-width: 480px) {
+  .emoji {
+    font-size: 128;
+  }
+  .banner {
+    margin-top: 2vw;
+    font-size: 5vw;
+    text-align: center;
+  }
 }
 
 .wrapper {
@@ -38,7 +40,7 @@
   max-width: 350px;
 }
 
-@media (min-width:1280px) {
+@media (min-device-width:1280px) {
   .regenerate {
     font-size: 56px;
   }
